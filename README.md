@@ -1,15 +1,16 @@
-```mermaid
----
-title: VAT Setup Process in Business Central
----
-flowchart TD
-    subgraph VATSetup["VAT Setup"]
-        A[Start VAT Setup] --> B[Define VAT Business Posting Groups]
-        B --> C[Define VAT Product Posting Groups]
-        C --> D[Configure VAT Posting Setup]
-        D --> E[Set Up VAT Statement]
-        E --> F[Run VAT Settlement]
-        F --> G[Submit VAT Report]
-    end
+# Neo Consulting - Dynamics Business Central Functional Consultant Website
 
-    G --> H[End Process]
+A professional portfolio website for showcasing expertise in Dynamics 365 Business Central, Power Platform, integrations, and dashboard interactivity.
+
+## Tech Stack
+
+- React (Vite)
+- Tailwind CSS
+- Chart.js
+- Power BI embed support
+
+## Quickstart
+
+```bash
+npm install
+npm run dev
